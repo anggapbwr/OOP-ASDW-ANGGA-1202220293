@@ -1,4 +1,4 @@
-public class TP0 {
+public class TPMODUL0 {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
