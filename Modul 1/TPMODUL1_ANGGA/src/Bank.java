@@ -18,7 +18,7 @@ public class Bank {
         }
     }
 
-        public Account geAccount(int accountNumber) {
+        public Account getAccount(int accountNumber) {
             for (Account account : akun) {
                 if (account.getAccountNumber() == accountNumber) {
                 return account;
