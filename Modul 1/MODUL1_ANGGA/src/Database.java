@@ -23,7 +23,7 @@ public class Database {
 
 
     // TODO: Create Method to Buy Ticket and Show the Total Price
-    public void BekiTiket (){
+    public void BeliTiket (){
         System.out.println("========================");
         System.out.println("Silahkan Pilih menu :");
         System.out.println("Pilih Nomor Konser yang akan dibeli :");
