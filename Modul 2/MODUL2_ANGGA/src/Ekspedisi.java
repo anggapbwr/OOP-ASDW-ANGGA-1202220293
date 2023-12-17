@@ -17,4 +17,3 @@ public class Ekspedisi
         pusat+ " mempunyai tarif sebesar "+tarif+" per kilogram.");
     }
 }
-
