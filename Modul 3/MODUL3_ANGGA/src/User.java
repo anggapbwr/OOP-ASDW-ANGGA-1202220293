@@ -1,13 +1,41 @@
 public class User {
-    protected String name;
-    protected int id;
 
-    public User(String name, int id) {
-        this.name = name;
-        this.id = id;
-    }
+   // TO DO: Create Private Attributes of User (nama, noHandphone)
 
-    public String getUserDetails() {
-        return "name: " + name + " ID :" + id;
-    }
+   private String nama ;
+   private String phoneNumber ;
+
+   // TO DO: Create Constructor of User
+   
+   public void setName(String nama) {
+      this.nama = nama;
+      }
+   public void setNoHandPhone(String phoneNumber) {
+      this.phoneNumber = phoneNumber;
+      }
+   // TO DO: Create register Method to show information about name and phone number
+
+   public void register(){
+      System.out.println("Register");
+      System.out.println("Nama : "+ nama);
+      System.out.println("No : "+ phoneNumber);
+  }
+
+   // TO DO: Create method to return name and phone number
+   
+   public String getName() {
+      return nama;
+  }
+
+   public String getnoHandPhone() {
+      return phoneNumber;
+  }
 }
+
+
+
+
+
+
+
+  
